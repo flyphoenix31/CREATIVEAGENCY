@@ -1,0 +1,19 @@
+.limittablechar
+{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 130px;
+}
+
+
+.makefirstcharcapital {text-transform:capitalize;}
+
+
+.limitchar {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
